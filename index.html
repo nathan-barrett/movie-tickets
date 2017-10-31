@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link href='https://fonts.googleapis.com/css?family=Amatic+SC:700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <script src="js/jquery.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Movie Tickets</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center">Movie Tickets</h1>
+      <div class ="jumbotron" id="formTron" >
+      <br>
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Select a movie:</h2>
+            <form id="ticketType">
+              <select id="movieName">
+                <option name="selector">Select a movie</option>
+                <option value="Star Wars">Star Wars</option>
+                <option value="Baby Driver">Baby Driver</option>
+                <option value="IT">IT</option>
+              </select>
+          </div>
+          <div class="col-md-4">
+            <h2>Select a time:</h2>
+              <select id="movieTime">
+                <option name="selector">Select a time</option>
+                <option value="10:00 AM">10:00 AM</option>
+                <option value="3:00 PM">3:00 PM</option>
+                <option value="6:00 PM">6:00 PM</option>
+              </select>
+          </div>
+          <div class="col-md-4">
+            <h2>Select your age:</h2>
+              <select id="movieUser">
+                <option name="selector">Select age</option>
+                <option value="senior">Senior (65+)</option>
+                <option value="adult">Adult (18+)</option>
+                <option value="child">Child (17 and under)</option>
+                <option value="student">Student (with ID)</option>
+              </select>
+          </div>
+        </div>
+        <br>
+        <br>
+        <center><button type="submit" class="btn btn-warning btn-lg btn-block">Get Price</button></center>
+      </form>
+      </div>
+
+    <div id="result">
+      <div class="jumbotron" id="resultTron">
+        <p class="myp">A ticket to <span class="selectedMovie"></span> will cost <span class="priceResult"></span>.</p>
+      </div>
+    </div>
+    </div>
+  </body>
+</html>

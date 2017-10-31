@@ -1,0 +1,41 @@
+#result {
+  display: none;
+  text-align: center;
+  font-size: 400px;
+}
+
+#formTron{
+  background: rgba(255, 254, 255, 0.6);
+
+}
+
+body {
+  background-image: url("seats.jpg");
+  background-size: cover;
+  font-family: 'Amatic SC', cursive;
+
+}
+
+#resultTron{
+  background-image: url("poppity.jpg");
+}
+
+
+h1 {
+font-size: 150px;
+}
+
+.col-md-4{
+  text-align: center;
+}
+
+p.myp, span{
+  font-size: 100px;
+  color: #468499;
+
+}
+
+p {
+  font-size: 1px;
+  color: white;
+}
